@@ -1,0 +1,222 @@
+{
+  "Astrid": [
+    {
+      "emotion": "Neutral",
+      "content": "Greetings, I am Lady Astrid Cordelia Di Costa Lune of the Noble House Lordsblade. But please, call me Astrid."
+    },
+    {
+      "emotion": "Happy",
+      "content": "I am from the neighboring state Dhavoro. While I am a lady, I am a knight first and foremost."
+    },
+    {
+      "emotion": "Mad",
+      "content": "I've come to the Kingdom of Anagar to help defeat the Dark Dragon and prove my status as a knight."
+    },
+    {
+      "emotion": "Shocked",
+      "content": "I have never really stayed in a village like Melostead. I've experienced all sorts of new things coming to this kingdom."
+    },
+    {
+      "emotion": "Neutral",
+      "content": "I must get back to my party. Do stay out of danger!"
+    }
+  ],
+  "Zuri": [
+    {
+      "emotion": "Bored",
+      "content": "Um, hey. My name is Zuri."
+    },
+    {
+      "emotion": "Neutral",
+      "content": "I'm a witch. I live in the woods outside of the village."
+    },
+    {
+      "emotion": "Happy",
+      "content": "I read people's fortunes and make good luck charms. I'm great with healing magic too."
+    },
+    {
+      "emotion": "Mad",
+      "content": "I've always enjoyed solitude. Melostead seems nice...but as a witch I prefer keeping to myself in my cottage."
+    },
+    {
+      "emotion": "Bored",
+      "content": "Anyway, I think I'll head home now. If you have need of me, you know where I am."
+    }
+  ],
+  "Mirabelle": [
+    {
+      "emotion": "Neutral",
+      "content": "Hello, my name is Mirabelle."
+    },
+    {
+      "emotion": "Happy",
+      "content": "I run the Keifu inn, here in Melostead. Though it also includes a bathhouse and the local tavern."
+    },
+    {
+      "emotion": "Bored",
+      "content": "Lately, there aren't many visitors in Melostead. I'm hoping things turn around..."
+    },
+    {
+      "emotion": "Shy",
+      "content": "I've never really left Melostead myself. I grew up here. But also, the inn keeps me very busy."
+    },
+    {
+      "emotion": "Happy",
+      "content": "Sorry, you'll have to excuse me, I have a lot of work to do."
+    }
+  ],
+  "Lenore": [
+    {
+      "emotion": "Neutral",
+      "content": "Hey there, name's Lenore."
+    },
+    {
+      "emotion": "Neutral",
+      "content": "I'm the physician here in Melostead. I run the clinic and develop my own medicine."
+    },
+    {
+      "emotion": "Bored",
+      "content": "Melostead is a small and tightknit community. Sure, things have been a been rough lately, but we'll get through it."
+    },
+    {
+      "emotion": "Mad",
+      "content": "...I arrived here in Melostead a few years ago. I had a bit of a rough patch, and everyone in Melostead was very kind."
+    },
+    {
+      "emotion": "Happy",
+      "content": "Please make sure to come by if you feel ill. I'm always researching new healing methods I'd like to try."
+    }
+  ],
+  "Rosamund": [
+    {
+      "emotion": "Happy",
+      "content": "Hi~ I'm Rosamund."
+    },
+    {
+      "emotion": "Neutral",
+      "content": "I work at the Eagle's Rest, a hotel in the Castletown. I serve drinks, but I perform on stage a couple nights a week as a singer."
+    },
+    {
+      "emotion": "Bored",
+      "content": "I moved out from Melostead a couple years ago. What can I say, the farm life just wasn't for me."
+    },
+    {
+      "emotion": "Mad",
+      "content": "...I still visit Melostead every couple weeks. My ma hates that I travel so much with the monsters about, but she'd hate if I didn't visit too."
+    },
+    {
+      "emotion": "Happy",
+      "content": "Anyway...I should get back to work. Come and visit me at the Eagle's Rest, okay?"
+    }
+  ],
+  "Raleigh": [
+    {
+      "emotion": "Happy",
+      "content": "Hey, I'm Raleigh! I run the farm with my ma and my little sister. Oh, and my herding dog Bruce."
+    },
+    {
+      "emotion": "Neutral",
+      "content": "I handle the physical farm work, tending to the animals, managing the crop fields, repairing the fences. My ma runs our shop and my little sister tends the flower garden."
+    },
+    {
+      "emotion": "Shocked",
+      "content": "Melostead is going through a rough patch. Honestly, I didn't realize, but that's what a lot of our town meetings are about lately."
+    },
+    {
+      "emotion": "Mad",
+      "content": "I was born and raised here. I love this village, so I'm doing my part to help it grow. Some others have moved out to live in the Castletown."
+    },
+    {
+      "emotion": "Happy",
+      "content": "I have some chores left to do today so I should get back to it. I'll see you around!"
+    }
+  ],
+  "Marlon": [
+    {
+      "emotion": "Neutral",
+      "content": "...I'm Marlon."
+    },
+    {
+      "emotion": "Mad",
+      "content": "I'm a mercenary."
+    },
+    {
+      "emotion": "Mad",
+      "content": "I was hired to help out a knight deal with the black dragon."
+    },
+    {
+      "emotion": "Bored",
+      "content": "We're here in Melostead for a supply run. The knight keeps wanting to help everyone here."
+    },
+    {
+      "emotion": "Neutral",
+      "content": "Guess I should get back."
+    }
+  ],
+  "Gerard": [
+    {
+      "emotion": "Happy",
+      "content": "Greetings, I am known as Gerard, High Magician of the Chalice. However, I will answer to Gerard."
+    },
+    {
+      "emotion": "Neutral",
+      "content": "As you may have assumed, I am a wizard. Though currently, I've taken a leave of absence from the Magus College of Anagar."
+    },
+    {
+      "emotion": "Shocked",
+      "content": "You see, I am doing some fieldwork for my research. I am writing a proposal that the geneology of-oh I suppose that isn't your interest. Also, I am assisting a knight in defeating a dragon."
+    },
+    {
+      "emotion": "Happy",
+      "content": "Anyway, we've come to the quaint village of Melostead for a temporary stay. After all, we have much greater things to attend to."
+    },
+    {
+      "emotion": "Mad",
+      "content": "Now if you'll excuse me, I'd like to do some more research before we must venture forth again."
+    }
+  ],
+  "Yasha": [
+    {
+      "emotion": "Neutral",
+      "content": "Ah, hello. I'm Yasha."
+    },
+    {
+      "emotion": "Happy",
+      "content": "I'm a bard and I work at the Keifu Inn here in Melostead. Please, come listen to me play sometime."
+    },
+    {
+      "emotion": "Shy",
+      "content": "There's not usually much of a crowd...Melostead doesn't draw in many travelers."
+    },
+    {
+      "emotion": "Bored",
+      "content": "I myself only came here about a year ago. Ah, it's a bit of a long story why."
+    },
+    {
+      "emotion": "Neutral",
+      "content": "Oh, but I should go now. I need to get some practice in before tonight. Hope to see you soon."
+    }
+  ],
+  "Theo": [
+    {
+      "emotion": "Happy",
+      "content": "Well, hello. Call me Theo."
+    },
+    {
+      "emotion": "Neutral",
+      "content": "I'm a traveling merchant all the way from the Dhavoro. Anything you need, you let me know."
+    },
+    {
+      "emotion": "Bored",
+      "content": "With this dragon about, there's been plenty of opportunity for business in Anagar."
+    },
+    {
+      "emotion": "Happy",
+      "content": "Melostead may be a small village now, but I think there's some ample opportunity for growth ."
+    },
+    {
+      "emotion": "Shy",
+      "content": "Anyway I must go now, but a pleasure to meet you. Hope to do some business with you soon."
+    }
+  ]
+}

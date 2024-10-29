@@ -1,0 +1,52 @@
+{
+  "Astrid": {
+    "birthday": "Fall 14",
+    "likes": ["Bows", "Armor", "Health Potions"],
+    "dislikes": ["Sweets", "Fish", "Craft materials"]
+  },
+  "Mirabelle": {
+    "birthday": "Spring 20",
+    "likes": ["Sweets", "Jewellery", "Furniture"],
+    "dislikes": ["Fish", "Tools"]
+  },
+  "Zuri": {
+    "birthday": "Winter 5",
+    "likes": ["Flowers", "Dishes", "Potions"],
+    "dislikes": ["Furniture"]
+  },
+  "Lenore": {
+    "birthday": "Summer 2",
+    "likes": ["Drinks", "Craft materials"],
+    "dislikes": ["Armor", "Weapons", "Perfumes"]
+  },
+  "Rosamund": {
+    "birthday": "Summer 24",
+    "likes": ["Flowers", "Potions", "Weapons"],
+    "dislikes": ["Armor", "Tools"]
+  },
+  "Raleigh": {
+    "birthday": "Fall 8",
+    "likes": ["Craft materials", "Tools", "Dishes"],
+    "dislikes": ["Flowers", "Perfumes"]
+  },
+  "Marlon": {
+    "birthday": "Winter 16",
+    "likes": ["Armor", "Potions", "Dishes"],
+    "dislikes": ["Furniture", "Jewellery", "Craft Materials"]
+  },
+  "Gerard": {
+    "birthday": "Summer 15",
+    "likes": ["Potions", "Flowers"],
+    "dislikes": ["Fish", "Animal Products", "Weapons"]
+  },
+  "Yasha": {
+    "birthday": "Spring 6",
+    "likes": ["Fish", "Jewellery", "Instruments"],
+    "dislikes": ["Sweets", "Tools"]
+  },
+  "Theo": {
+    "birthday": "Winter 27",
+    "likes": ["Jewellery", "Furniture", "Armor"],
+    "dislikes": ["Forageables", "Dishes", "Flowers"]
+  }
+}

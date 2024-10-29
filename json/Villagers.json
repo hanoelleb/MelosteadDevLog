@@ -1,0 +1,94 @@
+{
+  "Uma": {
+    "occupation": "Village Elder",
+    "description": "Uma founded Melostead, built on the land she was given from the king himself years ago. She speaks on behalf of Melostead. As of now, no one is interested in taking her place. She and Jon are wife and husband and have a son, Hector."
+  },
+  "Jon": {
+    "occupation": "Teacher",
+    "description": "Jon used to work in the royal archives before he met Uma. They wed, left their own lives, and now Jon happily teaches the children of the village."
+  },
+  "Loretta": {
+    "occupation": "Shop Owner",
+    "description": "Loretta runs the shop with her daughter Audrey. She is Uma's twin sister and moved to Melostead when her sister wanted to build a town."
+  },
+  "Audrey": {
+    "occupation": "Trader",
+    "description": "Audrey is Loretta's daughter and helps her run the general store. As a trader, she handles the shipping for the village. She is engaged to Charis."
+  },
+  "Lee": {
+    "occupation": "Student",
+    "description": "Lee lives with his mom, Audrey and likes to help out at his grandma's general shop and his uncle's carpentry shop. He even handles the village's mail delivery."
+  },
+  "Hector": {
+    "occupation": "Head Carpenter",
+    "description": "Hector runs the carpentry and material shop in the outskirts of the village. He returned to Melostead recently to help his mother, Uma, with plans for Melostead's development."
+  },
+  "Ian": {
+    "occupation": "Carpenter and Miner",
+    "description": "Ian works as a carpenter in Melostead. He met Hector at a tavern in the Castletown."
+  },
+  "Freya": {
+    "occupation": "Carpenter and Lumberer",
+    "description": "Freya is from the Onazon village in the snowy peaks. She left home to find herself and met Hector in the Castletown. With her natural strength, she thrives at being the local lumberer."
+  },
+  "Charis": {
+    "occupation": "Village Guard",
+    "description": "Charis was recently the sole village guard of Melostead. They moved to Melostead with their siblings Talitha and Basil after being orphaned by the Four Curses."
+  },
+  "Talitha": {
+    "occupation": "Midwife in Training",
+    "description": "Talitha trains under Lenore in the clinic and desires to be a midwife. She usually runs the front desk as well."
+  },
+  "Basil": {
+    "occupation": "Student",
+    "description": "Basil helps out at the clinic often, helping Lenore sort papers or help clean. Rarely, he plays music for the patients."
+  },
+  "Ken": {
+    "occupation": "Town Guard",
+    "description": "Ken was transferred to Melostead recently. He's not quite used to living in a small village."
+  },
+  "Kiba": {
+    "occupation": "Hunter and Butcher",
+    "description": "Kiba taught his granddaughter Yuria to be a hunter. While he still hunts, he primarily is a butcher and sells their game at the market stall."
+  },
+  "Yuria": {
+    "occupation": "Hunter",
+    "description": "Yuria, like her father and grandfather, is a hunter and hunts the local game. Her family used to be nomadic, but they decided to settle in Melostead."
+  },
+  "Plum": {
+    "occupation": "Student",
+    "description": "Plum is a bit too talkative to hunt with her grandfather Kiba and her sister Yuria, but she likes to help with taking care of the hunting dogs."
+  },
+  "Silas": {
+    "occupation": "Cobbler",
+    "description": "Silas is a cobbler and runs the apparel shop with his wife Diane, the tailor. He usually handles the shop managing and his wife handles the designs."
+  },
+  "Diane": {
+    "occupation": "Tailor",
+    "description": "Diane is the local tailor. She and her husband Silas run the apparel shop. Her son Simon took on her craft and runs their second shop in the Castletown."
+  },
+  "Simon": {
+    "occupation": "Tailor",
+    "description": "Simon moved out of Melostead semi-recently in order to run a tailor shop in the Castletown. He comes home every week to work with his mother Diane on new designs."
+  },
+  "Rowan": {
+    "occupation": "Farmer",
+    "description": "Rowan manages the farm south of Melostead and runs the farm store. She no longer does most of the physical work. Her son Raleigh now handles that."
+  },
+  "Chloe": {
+    "occupation": "Student",
+    "description": "Chloe lives in a farm with her mother Rowan and older brother Raleigh. She manages a flower garden, producing both flowers and honey for the village and likes to run the Sunday farm stall."
+  },
+  "Evan": {
+    "occupation": "Artist",
+    "description": "Evan is an artist. His daughter Mirabelle runs the Keifu Inn, formerly ran by his wife before she passed. While he helps Mirabelle with the inn, he primarily works in his studio."
+  },
+  "Oren": {
+    "occupation": "Chef",
+    "description": "Oren is the chef at Keifu inn and serves both lunch and dinner. A long time friend of Evan, Oren moved to Melostead to help him when his wife passed away."
+  },
+  "Abel": {
+    "occupation": "Knight",
+    "description": "Abel is a knight on a quest to defeat the dark dragon. He has assembled a party fit to take on the challenge. It seems Melostead has become a hub of sorts for them."
+  }
+}

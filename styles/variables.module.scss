@@ -1,0 +1,515 @@
+$ui-dark-color: #4a2f06;
+$ui-light-color: #faca83;
+
+$canvas-height: 500px;
+$canvas-width: 500px;
+
+$eyeBrown: brown;
+$eyeLightBrown: rgb(184, 123, 87);
+$eyeBlue: rgb(56, 56, 173);
+$eyeLightBlue: rgb(96, 161, 183);
+$eyeGreen: rgb(33, 116, 33);
+$eyeGray: gray;
+$eyePurple: rgb(135, 20, 135);
+$eyeRed: red;
+
+$hairDarkBrown: rgb(61, 24, 6);
+$hairBrown: rgb(120, 69, 33);
+$hairLightBrown: rgb(184, 123, 87);
+$hairBlonde: rgb(235, 211, 27);
+$hairWhite: white;
+$hairGray: gray;
+$hairBlack: rgb(12, 12, 12);
+$hairRed: rgb(201, 62, 34);
+$hairGinger: rgb(224, 132, 10);
+$hairPink: pink;
+$hairBlue: rgb(42, 40, 209);
+$hairGreen: rgb(16, 150, 16);
+$hairPurple: rgb(172, 69, 172);
+
+$skinFair: rgb(250, 216, 211);
+$skinLight: rgb(254, 194, 166);
+$skinPeach: rgb(252, 195, 162);
+$skinTan: rgb(250, 221, 167);
+$skinMed: rgb(233, 170, 98);
+$skinDarkCool: rgb(156, 107, 51);
+$skinDarkWarm: rgb(147, 82, 51);
+$skinDark: rgb(82, 40, 14);
+$skinDarkDeep: rgb(56, 23, 3);
+
+$fontFamily: Arial, Helvetica, sans-serif;
+
+@mixin textBase {
+  font-family: $fontFamily;
+  color: brown;
+}
+
+@mixin textSegment {
+  background-color: white;
+  border-radius: 30px;
+  line-height: 1.5em;
+  border: solid brown 3px;
+  box-shadow: 0px 0px 0px 6px white;
+}
+
+:export {
+  fontFamily: $fontFamily;
+
+  uiDarkColor: $ui-dark-color;
+  uiLightColor: $ui-light-color;
+  canvasHeight: $canvas-height;
+  canvasWidth: $canvas-width;
+
+  eyeBrown: $eyeBrown;
+  eyeLightBrown: $eyeLightBrown;
+  eyeBlue: $eyeBlue;
+  eyeLightBlue: $eyeLightBlue;
+  eyeGreen: $eyeGreen;
+  eyeGray: $eyeGray;
+  eyePurple: $eyePurple;
+  eyeRed: $eyeRed;
+
+  hairDarkBrown: $hairDarkBrown;
+  hairBrown: $hairBrown;
+  hairLightBrown: $hairLightBrown;
+  hairBlonde: $hairBlonde;
+  hairWhite: $hairWhite;
+  hairGray: $hairGray;
+  hairBlack: $hairBlack;
+  hairRed: $hairRed;
+  hairGinger: $hairGinger;
+  hairPink: $hairPink;
+  hairBlue: $hairBlue;
+  hairGreen: $hairGreen;
+  hairPurple: $hairPurple;
+
+  skinFair: $skinFair;
+  skinLight: $skinLight;
+  skinPeach: $skinPeach;
+  skinTan: $skinTan;
+  skinMed: $skinMed;
+  skinDarkCool: $skinDarkCool;
+  skinDarkWarm: $skinDarkWarm;
+  skinDark: $skinDark;
+  skinDarkDeep: $skinDarkDeep;
+}
+
+.MainPage {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+  display: inline-block;
+
+  .MainSegment {
+    @include textBase();
+    @include textSegment();
+    background-color: white;
+    width: 80vw;
+    margin: 5vh auto 5vh auto;
+    padding: 40px;
+    border-radius: 30px;
+    line-height: 1.5em;
+    left: auto;
+    right: auto;
+    border: solid brown 3px;
+    box-shadow: 0px 0px 0px 6px white;
+
+    p {
+      color: brown;
+    }
+
+    h1 {
+      color: brown;
+    }
+
+    ul {
+      li {
+        h2 {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+}
+
+.Footer {
+  margin-top: 30px;
+
+  .DevIcon {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.Banner {
+  width: 80vw;
+  height: auto;
+}
+
+@mixin textButton {
+  color: brown;
+  background-color: $ui-light-color;
+  border: brown 2px solid;
+  border-radius: 15%;
+}
+
+.TextButton {
+  @include textButton();
+}
+
+.CustomizerDemo {
+  @include textBase();
+  background-color: lightblue;
+
+  .DemoIntro {
+    @include textSegment();
+    margin: 5vh 5vw 5vh 5vw;
+
+    p {
+      margin: 2vh 1vw 2vh 1vw;
+    }
+  }
+
+  .Customizer {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 33vw 28vw 33vw;
+
+    .CustomizationPanel {
+      @include textSegment();
+      margin: 0 5vw 0 5vw;
+      width: 20vw;
+      height: 60vh;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-evenly;
+
+      h3 {
+        margin-left: 10px;
+      }
+
+      .ClassButton {
+        @include textButton();
+        width: 88px;
+        height: 5vh;
+        margin-left: 10px;
+        margin-bottom: 2vh;
+        margin-right: 1px;
+      }
+
+      .BodyTypeButton {
+        @include textButton();
+        margin-right: 2vw;
+        margin-left: 10px;
+        margin-bottom: 2vh;
+        width: 3vw;
+        height: 3vw;
+      }
+
+      .FeatureGrid {
+        display: grid;
+        grid-template-columns: 10vw 10vw;
+        border: $ui-dark-color 3px;
+      }
+    }
+
+    .CanvasLayer {
+      margin: 0 5vw 0 2vw;
+      background-color: lightblue;
+      border-style: solid;
+      border-width: thick;
+
+      position: relative;
+
+      height: $canvas-height;
+      width: $canvas-width;
+
+      canvas {
+        position: absolute;
+      }
+    }
+
+    .ClassDescription {
+      display: flex;
+      flex-direction: column;
+      @include textSegment();
+
+      * {
+        margin: 10px 2vw 2vh 2vw;
+      }
+
+      .CraftIcon {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.ChangeFeature {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 5vh;
+
+  h3 {
+    position: absolute;
+    top: -30px;
+    left: 10px;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  button {
+    background: none;
+    border: none;
+  }
+}
+
+.NavBar {
+  position: sticky;
+  background-color: lightblue;
+  top: 0px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 2;
+
+  a {
+    padding: 10px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-family: $fontFamily;
+  }
+
+  a:hover {
+    color: brown;
+  }
+}
+
+.CharacterPage {
+  @include textBase();
+  overflow: scroll;
+  overflow-x: hidden;
+
+  h2 {
+    font-size: 1.5em;
+    margin-left: 5vw;
+  }
+
+  .Intro {
+    @include textSegment();
+    box-shadow: 0px 0px 0px 6px $ui-light-color;
+    background-color: $ui-light-color;
+    margin: 5vh 5vh 10vh 5vh;
+
+    h1 {
+      font-size: 1.75em;
+      margin-left: 5vw;
+    }
+
+    p {
+      padding: 2vh 2vw 2vh 2vw;
+    }
+  }
+}
+
+.CharacterList {
+  @include textSegment();
+  box-shadow: 0px 0px 0px 6px $ui-light-color;
+  background-color: $ui-light-color;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 5vh;
+  padding-top: 6vh;
+  padding-bottom: 2vh;
+  position: relative;
+
+  h2 {
+    position: absolute;
+    left: -30px;
+    top: 0;
+  }
+}
+
+.CharacterElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2vh;
+
+  a {
+    color: brown;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $ui-dark-color;
+  }
+}
+
+@mixin characterImage {
+  background-position: top;
+  text-align: center;
+  overflow: hidden;
+
+  width: 200px;
+  height: 200px;
+
+  border: solid brown 3px;
+  border-radius: 50%;
+
+  margin-left: 3vw;
+  margin-bottom: 2vh;
+
+  img {
+    width: 400px;
+    height: auto;
+    margin: 0 0 0 -100px;
+    background-color: lightblue;
+  }
+}
+
+.CharacterVillager {
+  @include characterImage();
+}
+
+.VillagerList {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+
+  .VillagerDescription {
+    width: 250px;
+    margin-left: 2vw;
+
+    h3 {
+      text-align: center;
+    }
+  }
+}
+
+.CharacterSelectAstrid {
+  @include characterImage();
+}
+
+.CharacterSelectZuri {
+  @include characterImage();
+}
+
+.CharacterSelectMirabelle {
+  @include characterImage();
+}
+
+.CharacterSelectLenore {
+  @include characterImage();
+}
+
+.CharacterSelectRosamund {
+  @include characterImage();
+}
+
+.CharacterSelectRaleigh {
+  @include characterImage();
+}
+
+.CharacterSelectMarlon {
+  @include characterImage();
+}
+
+.CharacterSelectGerard {
+  @include characterImage();
+}
+
+.CharacterSelectYasha {
+  @include characterImage();
+}
+
+.CharacterSelectTheo {
+  @include characterImage();
+}
+
+.CharacterPersonal {
+  @include textBase();
+  position: relative;
+
+  h2 {
+    display: block;
+    float: right;
+  }
+}
+
+.CharacterInfo {
+  @include textSegment();
+
+  * {
+    margin-left: 20px;
+  }
+}
+
+.BannerBackgroundBlog {
+  display: flex;
+  justify-content: center;
+}
+
+.Blog {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .Post {
+    @include textBase();
+    @include textSegment();
+    width: 80vw;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 20px;
+    border-radius: 2%;
+
+    h2 {
+      text-align: center;
+      font-size: 2em;
+    }
+
+    h3 {
+      text-align: right;
+      font-size: medium;
+    }
+
+    .WordpressData {
+      iframe {
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+}
+
+.Media {
+  @include textBase();
+
+  .Screenshot {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+
+    img {
+      width: 28vw;
+      height: auto;
+      margin-bottom: 2vh;
+      border: solid brown 2px;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Alchemist": {
+    "sentences": [
+      "From soothing salves to potent poisons, Alchemists specialize in brewing potions. With an alembic, cauldron, mortar,and pestle an alchemist can create extraordinary concoctions.",
+      "An Alchemist can specialize an an apothecary, poisonmaster, or scientist."
+    ],
+    "items": [
+      { "src": "healthPotion", "name": "Health Potion++" },
+      { "src": "staminaPoison", "name": "Stamina Poison" },
+      { "src": "sleepingPotion", "name": "Sleeping Brew" }
+    ]
+  },
+  "Blacksmith": {
+    "sentences": [
+      "Artificers of everyday tools, weaponry, armory, and even jewellery. Smelting, grinding, and using their forge are all everyday tasks for a blacksmith.\n",
+      "A blacksmith can specialize as a weaponmaster, armorer, or goldsmith."
+    ],
+    "items": [
+      { "src": "ironSword", "name": "Iron Sword" },
+      { "src": "steelHelmet", "name": "Steel Helm" },
+      { "src": "diamondRing", "name": "Diamond Ring" }
+    ]
+  },
+  "Woodworker": {
+    "sentences": [
+      "A wright with dextrous hands, a woodworker bends and carves wood to make weapons, furniture, and other instruments. Woodwork consists of sawing, joining, and refining.",
+      "A woodworker can specialize as a bowyer, joiner, or luthier."
+    ],
+    "items": [
+      { "src": "oakTable", "name": "Oak Table" },
+      { "src": "emeraldRod", "name": "Emerald Rod" },
+      { "src": "ocarina", "name": "Ocarina" }
+    ]
+  }
+}
