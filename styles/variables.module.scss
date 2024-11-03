@@ -203,19 +203,106 @@ $desktopBreakpoint: 1500px;
     }
   }
 
+  @media (max-width: $smallScreenBreakpoint) {
+    #CustomizerHeaderImage {
+      width: 500px;
+      height: auto;
+    }
+  }
+
+  @media (max-width: $tabletBreakpoint) {
+    #CustomizerHeaderImage {
+      width: 350px;
+      height: auto;
+    }
+  }
+
+  @media (max-width: $mobileBreakpoint) {
+    #CustomizerHeaderImage {
+      width: 250px;
+      height: auto;
+    }
+  }
+
   .Customizer {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 33vw 28vw 33vw;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+
+    .CanvasSize {
+      width: 500px;
+      height: 500px;
+    }
+
+    @media (max-width: $smallScreenBreakpoint) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .CanvasSize {
+        width: 500px;
+        height: 500px;
+      }
+
+      .CanvasTypeLayer {
+        width: 500px;
+        height: 500px;
+      }
+
+      .ClassDescription {
+        width: 80%;
+        margin: 5vh 0 5vh 0;
+      }
+
+      .CustomizationPanel {
+        width: 80%;
+        margin: 5vh 0 5vh 0;
+      }
+    }
+
+    @media (max-width: $tabletBreakpoint) {
+      flex-direction: column;
+      align-items: center;
+
+      .CanvasSize {
+        width: 400px;
+        height: 400px;
+      }
+
+      .CanvasTypeLayer {
+        width: 400px;
+        height: 400px;
+      }
+    }
+
+    @media (max-width: $mobileBreakpoint) {
+      align-items: center;
+
+      .CanvasSize {
+        width: 300px;
+        height: 300px;
+      }
+
+      .CanvasTypeLayer {
+        width: 300px;
+        height: 300px;
+      }
+    }
 
     .CustomizationPanel {
       @include textSegment();
-      margin: 0 5vw 0 5vw;
-      width: 20vw;
-      height: 60vh;
+      margin: 2vh 3vw 2vh 3vw;
+
       display: flex;
       flex-flow: column;
       justify-content: space-evenly;
+      align-items: center;
+
+      width: 100%;
 
       h3 {
         margin-left: 10px;
@@ -224,7 +311,7 @@ $desktopBreakpoint: 1500px;
       .ClassButton {
         @include textButton();
         width: 88px;
-        height: 5vh;
+        height: 50px;
         margin-left: 10px;
         margin-bottom: 2vh;
         margin-right: 1px;
@@ -235,27 +322,24 @@ $desktopBreakpoint: 1500px;
         margin-right: 2vw;
         margin-left: 10px;
         margin-bottom: 2vh;
-        width: 3vw;
-        height: 3vw;
+        width: 40px;
+        height: 40px;
       }
 
       .FeatureGrid {
+        margin-top: 4vh;
         display: grid;
-        grid-template-columns: 10vw 10vw;
+        grid-template-columns: repeat(2, 1fr);
         border: $ui-dark-color 3px;
       }
     }
 
     .CanvasLayer {
-      margin: 0 5vw 0 2vw;
+      margin: 2vh 0 2vh 0;
       background-color: lightblue;
       border-style: solid;
       border-width: thick;
-
       position: relative;
-
-      height: $canvas-height;
-      width: $canvas-width;
 
       canvas {
         position: absolute;
@@ -263,9 +347,11 @@ $desktopBreakpoint: 1500px;
     }
 
     .ClassDescription {
+      @include textSegment();
       display: flex;
       flex-direction: column;
-      @include textSegment();
+
+      width: 100%;
 
       * {
         margin: 10px 2vw 2vh 2vw;
@@ -358,8 +444,8 @@ $desktopBreakpoint: 1500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
   margin-bottom: 5vh;
   padding-top: 6vh;
   padding-bottom: 2vh;
@@ -377,6 +463,7 @@ $desktopBreakpoint: 1500px;
   flex-direction: column;
   align-items: center;
   margin-bottom: 2vh;
+  margin-right: 2vw;
 
   a {
     color: brown;
@@ -504,7 +591,38 @@ $desktopBreakpoint: 1500px;
 .BannerBackgroundBlog {
   display: flex;
   justify-content: center;
-  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+
+  .BlogHeader {
+    position: absolute;
+    width: 99%;
+    overflow: hidden;
+    height: 384px;
+    background-color: rgb(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 640px;
+      height: 360px;
+    }
+
+    @media (max-width: $mobileBreakpoint) {
+      img {
+        width: 480px;
+        height: 270px;
+      }
+    }
+
+    h1 {
+      @include textBase();
+      color: white;
+      text-align: center;
+      margin-top: -3%;
+    }
+  }
 }
 
 .Blog {
@@ -513,6 +631,7 @@ $desktopBreakpoint: 1500px;
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 
   .Post {
     @include textBase();
@@ -534,6 +653,34 @@ $desktopBreakpoint: 1500px;
     }
 
     .WordpressData {
+      @media (max-width: $desktopBreakpoint) {
+        iframe {
+          width: 854px;
+          height: 480px;
+        }
+      }
+
+      @media (max-width: $smallScreenBreakpoint) {
+        iframe {
+          width: 640px;
+          height: 360px;
+        }
+      }
+
+      @media (max-width: $tabletBreakpoint) {
+        iframe {
+          width: 426px;
+          height: 240px;
+        }
+      }
+
+      @media (max-width: $mobileBreakpoint) {
+        iframe {
+          width: 300px;
+          height: 169px;
+        }
+      }
+
       iframe {
         display: block;
         margin: auto;

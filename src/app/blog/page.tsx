@@ -58,36 +58,49 @@ export default async function Blog() {
     <>
       <NavBar></NavBar>
       <div className={variables.BannerBackgroundBlog}>
-        <Image
-          src="/storm.png"
-          alt="Pixel art of the Cursed Storm"
-          width={160 * 3}
-          height={128 * 3}
-          quality={100}
-        ></Image>
-        <Image
-          src="/frozen.png"
-          alt="Pixel art of the Cursed Storm"
-          width={160 * 3}
-          height={128 * 3}
-          quality={100}
-        ></Image>
-        <Image
-          src="/plague.png"
-          alt="Pixel art of the Cursed Storm"
-          width={160 * 3}
-          height={128 * 3}
-          quality={100}
-        ></Image>
-        <Image
-          src="/blight.png"
-          alt="Pixel art of the Cursed Storm"
-          width={160 * 3}
-          height={128 * 3}
-          quality={100}
-        ></Image>
-      </div>
+        <>
+          <Image
+            src="/storm.png"
+            alt="Pixel art of the Cursed Storm"
+            width={160 * 3}
+            height={128 * 3}
+            quality={100}
+          ></Image>
+          <Image
+            src="/frozen.png"
+            alt="Pixel art of the Cursed Storm"
+            width={160 * 3}
+            height={128 * 3}
+            quality={100}
+          ></Image>
+          <Image
+            src="/plague.png"
+            alt="Pixel art of the Cursed Storm"
+            width={160 * 3}
+            height={128 * 3}
+            quality={100}
+          ></Image>
+          <Image
+            src="/blight.png"
+            alt="Pixel art of the Cursed Storm"
+            width={160 * 3}
+            height={128 * 3}
+            quality={100}
+          ></Image>
+        </>
 
+        <div className={variables.BlogHeader}>
+          <Image
+            src="/logo.png"
+            alt="Made in Melostead logo"
+            width={640}
+            height={360}
+          />
+
+          <h1>Developer Blog</h1>
+        </div>
+      </div>
+      {/* 
       <div
         style={{
           position: "absolute",
@@ -97,24 +110,8 @@ export default async function Blog() {
           backgroundColor: "rgb(0,0,0,0.25)",
         }}
       >
-        <Image
-          src="/logo.png"
-          alt="Made in Melostead logo"
-          width={640}
-          height={360}
-        />
-
-        <h1
-          style={{
-            textAlign: "center",
-            fontFamily: variables.fontFamily,
-            color: "white",
-            marginTop: "-5vh",
-          }}
-        >
-          Developer Blog
-        </h1>
-      </div>
+       
+      </div> */}
 
       <div className={variables.Blog}>
         {posts.map((post: { title: string; content: string; date: string }) => {

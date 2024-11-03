@@ -74,7 +74,14 @@ const ChangeFeatureComponent = ({
 };
 
 const CustomizerCanvas = ({ id }: { id: string }) => {
-  return <canvas id={id} width={500} height={500}></canvas>;
+  return (
+    <canvas
+      id={id}
+      className={variables.CanvasTypeLayer}
+      width={500}
+      height={500}
+    ></canvas>
+  );
 };
 
 const ClassDescription = ({ classId }: { classId: number }) => {
@@ -338,8 +345,8 @@ export default function CharacterCustomizer() {
       <NextImage
         src="/stainedGlass.png"
         alt="Pixel art of stained glass depicting an alchemist, a blacksmith, and a woodworker"
-        height={400}
-        width={400}
+        height={500}
+        width={500}
         quality={100}
         style={{
           display: "block",
@@ -347,6 +354,7 @@ export default function CharacterCustomizer() {
           marginRight: "auto",
           marginTop: "5vh",
         }}
+        id={variables.CustomizerHeaderImage}
       ></NextImage>
 
       <div className={variables.DemoIntro}>
@@ -387,6 +395,7 @@ export default function CharacterCustomizer() {
           <CustomizerCanvas id={"glCanvas"}></CustomizerCanvas>
           <CustomizerCanvas id={"HairCanvas"}></CustomizerCanvas>
           <CustomizerCanvas id={"PupilCanvas"}></CustomizerCanvas>
+          <div className={variables.CanvasSize}></div>
         </div>
         <div className={variables.CustomizationPanel}>
           <div>
