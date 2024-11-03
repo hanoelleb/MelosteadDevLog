@@ -51,23 +51,21 @@ export default function CharacterCastPage() {
       <div className={variables.Intro}>
         <h1>Characters</h1>
         <p>
-          There&apos;s a lot of people excited to meet you in Melostead! Mayor
-          Uma founded Melostead with the hope to help others who lost something
-          from the Cursed Time. Homes, health, loved ones...most in Melostead
-          have lost something. There&apos;s a wide array of personalities to be
-          found in Melostead. And small as it may be, it seems the local inn may
-          attract some adventurers that are curious about the locals. If
-          you&apos;re the social type, you may come to learn a lot about your
-          neighbors and gain very close friends. Perhaps you may even find a
-          significant other.
+          There&apos;s a lot of people excited to meet you in Melostead! Uma the
+          village elder founded Melostead with the hope to help others who lost
+          something from the Cursed Time. Homes, health, loved ones...most in
+          Melostead have lost something. There&apos;s a wide array of
+          personalities to be found in Melostead. And small as it may be, it
+          seems the local inn may attract some adventurers that are curious
+          about the locals. If you&apos;re the social type, you may come to
+          learn a lot about your neighbors and gain very close friends and if
+          you're interested, you may even find a significant other.
         </p>
       </div>
 
       <div className={variables.CharacterList}>
         <h2>Potential Romances</h2>
-        <span
-          style={{ position: "absolute", marginLeft: "19vw", top: "2.5vh" }}
-        >
+        <span style={{ flexBasis: "100%", marginLeft: "4vw" }}>
           (Click on their name to find out more!)
         </span>
         {ROMANCEABLE_CHARACTERS.map((characterName) => {
@@ -87,7 +85,7 @@ export default function CharacterCastPage() {
               return (
                 <div
                   key={`${charName}Element`}
-                  style={{ marginRight: "2vw", marginLeft: "2vw" }}
+                  className={variables.VillagerEntry}
                 >
                   <div className={variables.CharacterVillager}>
                     <Image

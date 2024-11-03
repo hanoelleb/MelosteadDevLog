@@ -86,6 +86,7 @@ export default function Home() {
           width={640}
           height={360}
           style={{ marginTop: "-400px" }}
+          className={variables.MiMLogo}
         />
 
         <NavBar></NavBar>

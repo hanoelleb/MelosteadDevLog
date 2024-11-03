@@ -26,9 +26,10 @@ export default async function Media() {
       <h2>Trailer</h2>
       <iframe
         src="https://www.youtube.com/embed/guW9QUMc-oY"
-        width={768}
-        height={512}
+        width={854}
+        height={480}
         allowFullScreen
+        className={variables.Trailer}
       />
       <h2>Videos</h2>
       <h2>Screenshots</h2>
