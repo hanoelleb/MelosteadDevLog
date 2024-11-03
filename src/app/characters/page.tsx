@@ -59,7 +59,7 @@ export default function CharacterCastPage() {
           seems the local inn may attract some adventurers that are curious
           about the locals. If you&apos;re the social type, you may come to
           learn a lot about your neighbors and gain very close friends and if
-          you're interested, you may even find a significant other.
+          you&apos;re interested, you may even find a significant other.
         </p>
       </div>
 
