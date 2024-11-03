@@ -18,32 +18,25 @@ const TextBox = ({
 }) => {
   return (
     <>
-      <div
-        style={{
-          backgroundColor: variables.uiLightColor,
-          borderWidth: "5px",
-          borderRadius: "20px",
-          borderStyle: "solid",
-          borderColor: variables.uiDarkColor,
-          width: 800,
-          height: 200,
-          marginTop: -100,
-          marginLeft: "30px",
-          position: "absolute",
-        }}
-      >
+      <div className={variables.TextBox}>
         <p style={{ padding: "2vh 2vw 2vh 2vw", fontSize: "1.25em" }}>
           {sentence}
         </p>
-      </div>
 
-      <button
-        className={variables.TextButton}
-        onClick={handleNext}
-        style={{ position: "absolute", top: "80vh", left: "48vw" }}
-      >
-        next
-      </button>
+        <button
+          className={variables.TextButton}
+          style={{
+            position: "absolute",
+            right: "0",
+            marginRight: "10px",
+            bottom: "0",
+            marginBottom: "10px",
+          }}
+          onClick={handleNext}
+        >
+          next
+        </button>
+      </div>
     </>
   );
 };
@@ -53,19 +46,7 @@ const CharacterInfo = ({ charName }: { charName: string }) => {
     characterInfo[charName as keyof typeof characterInfo];
 
   return (
-    <div
-      className={variables.CharacterInfo}
-      style={{
-        position: "absolute",
-        top: "15vh",
-        right: "10vw",
-        width: "20vw",
-        height: "45vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "baseline",
-      }}
-    >
+    <div className={variables.CharacterInfo}>
       <h2>Birthday: {birthday}</h2>
       <h2>Likes</h2>
       <ul style={{ marginTop: "-10px" }}>
@@ -104,18 +85,21 @@ export default function CharacterPage() {
       className={variables.CharacterPersonal}
       style={{
         backgroundImage: `url(/characterBackgrounds/${characterName}.png)`,
-        width: "99vw",
-        height: "98vh",
       }}
     >
       <NavBar></NavBar>
       <h1
-        className={variables.CharacterInfo}
         style={{
-          width: "20vw",
+          width: "fit-content",
           textAlign: "center",
           marginLeft: "auto",
           marginRight: "auto",
+          padding: "0 20px 0 20px",
+          backgroundColor: "white",
+          borderRadius: "30px",
+          lineHeight: "1.5em",
+          border: "solid brown 3px",
+          boxShadow: "0px 0px 0px 6px white",
         }}
       >
         {characterName}
